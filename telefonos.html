@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teléfonos | Mercacel</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="banner" id="banner">
+  <img src="img/logo.png" alt="Logo Mercacel" class="logo" />
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="telefonos.html">Teléfonos</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="electrodomesticos.html">Electrodomésticos</a>
+    </nav>
+  </header>
+
+  <nav class="header">
+  <div class="header-title"><h1>Tecnología y accesorios para ti</h1></div>
+  <div class="search-container">
+    <input type="text" id="buscador" placeholder="Buscar productos..." />
+  </div>
+</nav>
+  <main>
+    <div id="productos" class="grid-productos"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mercacel. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // Aquí definimos la categoría deseada
+    const categoria = "telefonos";
+  </script>
+  <script src="js/catalogo.js"></script>
+</body>
+</html>

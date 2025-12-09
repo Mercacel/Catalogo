@@ -1,0 +1,258 @@
+main {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+#filtros select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: border-color 0.3s ease;
+}
+
+#filtros select:focus {
+  border-color: #25D366;
+  outline: none;
+}
+
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-items: center;
+}
+
+/* Estilos base */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F9F9F9;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header de navegación */
+.header {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Título */
+.header-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: #E0E0E0;
+}
+
+/* Enlaces */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #E53935;
+}
+
+/* Buscador */
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#buscador {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Tarjeta de producto */
+.producto {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  max-width: 280px;
+  width: 100%;
+}
+
+.producto:hover {
+  transform: translateY(-4px);
+}
+
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain; /* o "contain" si querés que no se recorte */
+  border-radius: 4px;
+}
+
+.nombre-producto {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.precio {
+  color: #2e7d32;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.descripcion {
+  white-space: normal;
+  font-size: 0.95rem;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.whatsapp {
+  display: block;
+  background-color: #25D366;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+/* Footer */
+footer {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 1rem 2rem;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #d1f6df80, /* verde con 50% de opacidad */
+    #d1f6df80 1px,     /* Grosor de la línea */
+    transparent 1px,
+    transparent 10px /* Espaciado entre líneas */
+  );
+  background-color: #FFFFFF; /* Color base debajo */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.logo {
+  height: 60px;
+  transition: transform 0.4s ease, height 0.3s ease;
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.banner .logo {
+  filter: blur(0);
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem; /* Separación entre logo y nav */
+  padding: 1rem 2rem;
+  flex-wrap: wrap; /* Para evitar que el logo se estire si hay poco espacio */
+}
+
+.logo {
+  height: 60px;
+  width: auto; /* Asegura que conserve la proporción sin estirarse */
+}
+
+.banner nav {
+  display: flex;
+  gap: 1.5rem; /* Espacio entre los enlaces */
+}
+
+.banner nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .grid-productos {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .producto {
+    max-width: 100%;
+  }
+}
