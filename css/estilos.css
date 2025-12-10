@@ -196,10 +196,6 @@ footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-
-
-
-
 .logo {
   height: 60px;
   transition: transform 0.4s ease, height 0.3s ease;
@@ -217,30 +213,73 @@ footer {
 
 .banner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem; /* Separación entre logo y nav */
-  padding: 1rem 2rem;
-  flex-wrap: wrap; /* Para evitar que el logo se estire si hay poco espacio */
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.logo {
-  height: 60px;
-  width: auto; /* Asegura que conserve la proporción sin estirarse */
+.banner .logo {
+  height: 50px;
+  width: auto;
 }
 
 .banner nav {
   display: flex;
-  gap: 1.5rem; /* Espacio entre los enlaces */
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .banner nav a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  padding: 0.5rem 0.75rem;
 }
 
+.banner nav a:hover {
+  color: #007bff;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+
+  .banner nav {
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .banner nav a {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner nav {
+    gap: 0.25rem;
+  }
+
+  .banner nav a {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .banner .logo {
+    height: 40px;
+  }
+}
 
 * {
   box-sizing: border-box;
