@@ -2,11 +2,11 @@
   "name": "Mercacel - Tecnología y accesorios",
   "short_name": "Mercacel",
   "description": "Tienda de teléfonos, accesorios y electrodomésticos",
-  "start_url": "/index.html",
+  "start_url": "/Catalogo/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#25D366",
-  "scope": "/",
+  "scope": "/Catalogo/",
   "icons": [
     {
       "src": "img/icon-192.png",
