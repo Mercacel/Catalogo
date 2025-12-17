@@ -15,7 +15,7 @@
   {
   "nombre": "Samsung F07",
   "precio": "65500 CUP",
-  "imagen": "img/telefonos/samsung_F07.jpeg",
+  "imagen": "img/telefonos/samsung_F07.jpg",
   "categoria": "telefonos",
   "ram": "4 GB",
   "memoria": "64 GB",
@@ -212,7 +212,7 @@
 {
   "nombre": "Ventilador recargable modelo X3 7500mAh",
   "precio": "16000 CUP",
-  "imagen": "img/electrodomesticos/Ventilador_X3.png",
+  "imagen": "img/electrodomesticos/Ventilador_X3.jpg",
   "categoria": "electrodomesticos",
   "descripcion": "Ventilador portátil recargable modelo X3, ideal para uso en el hogar, oficina o exteriores. Cuenta con batería de larga duración, múltiples velocidades de ventilación y diseño compacto para fácil transporte. Perfecto para mantener frescura en cualquier lugar sin depender de la corriente eléctrica.",
   "destacado": true
