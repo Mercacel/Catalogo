@@ -8,7 +8,7 @@
     "memoria": "64 GB",
     "pantalla": "6.7\" PLS",
     "camara": "Dual 50MP-8MP",
-    "descripcion": "El Samsung Galaxy F05 ofrece una experiencia visual inmersiva con su pantalla de 6.7 pulgadas y un potente sistema de cámara dual de 50MP, ideal para fotografía. Se entrega en su caja.",
+    "descripcion": "El Samsung Galaxy F05 ofrece una experiencia visual inmersiva con su pantalla de 6.7 pulgadas y un potente sistema de cámara dual de 50MP, ideal para fotografía. Se entrega en su caja además de un COVER de ragalo!.",
     "red": "2G/3G/4G",
     "destacado": true
   },
@@ -40,6 +40,14 @@
     "red": "2G/3G/4G/5G",
     "destacado": true
   },
+  {
+  "nombre": "Covers protectores para Telefonos",
+  "precio": "3000 CUP",
+  "imagen": "img/accesorios/Covers.jpg",
+  "categoria": "accesorios",
+  "descripcion": "Covers de silicona flexibles y resistentes, diseñados para modelos SAMSUNG. Se adhieren perfectamente al teléfono, brindando protección contra golpes y rayaduras. Pregunta sin dudas por compatibilidad.",
+  "destacado": true
+},
   {
     "nombre": "Audífonos de Cable",
     "tipo": "auricular",
@@ -137,7 +145,7 @@
     "imagen": "img/accesorios/1hora_cargador_gar154.jpg",
     "categoria": "accesorios",
     "descripcion": "Cargador turbo con cable Lightning incluido, carga tu iPhone con carga rápida y segura. Chip inteligente de protección.",
-    "destacado": true
+    "destacado": false
   },
   
   {
@@ -219,7 +227,7 @@
 },
 
 {
-  "nombre": "Ventilador recargable modelo F6 30000mAh",
+  "nombre": "Ventilador recargable modelo F6 20000mAh",
   "precio": "25000 CUP",
   "imagen": "img/electrodomesticos/ventilador_f6.jpeg",
   "categoria": "electrodomesticos",
@@ -239,7 +247,7 @@
   "nombre": "Smartwatch Ultra",
   "tipo": "smartwatch",
   "precio": "13500 CUP",
-  "imagen": "img/accesorios/smartwatch_ultra.jpeg",
+  "imagen": "img/accesorios/smartwatch_ultra.jpg",
   "categoria": "accesorios",
   "descripcion": "Smartwatch Ultra compatible con dispositivos Android, equipado con pantalla táctil de alta resolución, monitoreo de salud (frecuencia cardíaca, pasos, sueño), notificaciones inteligentes y batería de larga duración. Diseño moderno y resistente, ideal para uso diario y actividades deportivas.",
   "destacado": true
@@ -343,7 +351,7 @@
   "nombre": "Batería portátil 20000mAh",
   "tipo": "cargador-portatil",
   "precio": "9000 CUP",
-  "imagen": "img/accesorios/1hora_bateria_gar117.jpeg",
+  "imagen": "img/accesorios/1hora_bateria_gar117.jpg",
   "categoria": "accesorios",
   "descripcion": "Batería portátil modelo GAR117 con gran capacidad de carga 20000mAh, ideal para mantener tus dispositivos móviles siempre encendidos. Compatible con smartphones, tablets y otros equipos electrónicos. Diseño compacto y ligero, fácil de transportar, con puertos USB de salida rápida.",
   "destacado": true
@@ -401,9 +409,34 @@
   "categoria": "accesorios",
   "descripcion": "Protectores de pantalla (micas) de cristal templado, compatibles con distintas marcas y modelos de dispositivos móviles. Fabricados en vidrio de alta densidad, ofrecen máxima resistencia contra rayaduras, golpes y caídas, manteniendo la claridad y sensibilidad táctil de la pantalla. Para confirmar disponibilidad, contáctenos indicando la marca y modelo de su teléfono.",
   "destacado": false
+},
+
+
+{
+  "nombre": "Extension USB",
+  "precio": "1500 CUP",
+  "imagen": "img/accesorios/extension_USB.jpg",
+  "categoria": "accesorios",
+  "descripcion": "Extensión USB práctica para conectar memorias y dispositivos directamente al televisor. Facilita el acceso a puertos difíciles de alcanzar y permite disfrutar de contenido multimedia sin complicaciones.",
+  "destacado": false
+},
+
+{
+  "nombre": "Audífonos de Cascos Bluetooth",
+  "precio": "4500 CUP",
+  "imagen": "img/accesorios/Buytiti_Audifonos_P47.JPG",
+  "categoria": "accesorios",
+  "descripcion": "Audífonos de diadema modelo P47 con conexión Bluetooth. Ofrecen sonido estéreo nítido, bajos potentes y diseño plegable para fácil transporte. Incluyen controles integrados para música y llamadas. Perfectos para uso diario o actividades deportivas.",
+  "destacado": false
+},
+{
+  "nombre": "Repelente de Spray OFF",
+  "precio": "5000 CUP",
+  "imagen": "img/accesorios/repelente_OFF.jpg",
+  "categoria": "accesorios",
+  "descripcion": "Spray repelente OFF de fórmula clásica (envase naranja). Protege eficazmente contra mosquitos y otros insectos, ideal para exteriores y climas cálidos. Su aplicación es rápida y cómoda, ofreciendo frescura y seguridad durante horas.",
+  "destacado": true
 }
-
-
 
 
 
